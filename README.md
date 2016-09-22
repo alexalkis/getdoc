@@ -1,5 +1,9 @@
 A quick hack to display amiga's autodocs documentation.
 
+###Configuration
+For now edit getdoc.c (line 41) and change the path to where you keep your autodocs.  Alternatively, export a variable "autodoc" holding the path.  The first needs recompile, while the later won't need that.
+
+###Usage
 E.g. getdoc Open
 
 and you'll get the documentation for dos.library/Open
