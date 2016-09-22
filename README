@@ -18,6 +18,7 @@ exec.library/WaitIO
 
 ######Emacs + getdoc
 Put something like that in your ~/.emacs
+```
 (global-set-key [f12] 'lookup-word-at-point)
 
 (require 'thingatpt)
@@ -25,5 +26,5 @@ Put something like that in your ~/.emacs
 (defun lookup-word-at-point ()
   (interactive)
   (shell-command (format "getdoc %s" (shell-quote-argument (word-at-point)))))
-
+```
 And now with F12 you'll get the autodoc.
