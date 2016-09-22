@@ -6,7 +6,9 @@ and you'll get the documentation for dos.library/Open
 
 It will try to find (and suggest) function when you mispell things.
 
-E.g. getdoc waitbit
+E.g.
+```
+getdoc waitbit
 dos.library/WaitPkt
 graphics.library/WaitBlit
 exec.library/Wait
@@ -14,7 +16,7 @@ exec.library/WaitIO
 
 
 4 fuzzy matches.
-
+```
 
 ######Emacs + getdoc
 Put something like that in your ~/.emacs
