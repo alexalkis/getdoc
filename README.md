@@ -33,4 +33,4 @@ Put something like that in your ~/.emacs
   (interactive)
   (shell-command (format "getdoc %s" (shell-quote-argument (word-at-point)))))
 ```
-And now with F12 you'll get the autodoc.
+And now with F12 you'll get the autodoc for the word your cursor is at emacs.
