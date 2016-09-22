@@ -16,7 +16,7 @@ exec.library/WaitIO
 4 fuzzy matches.
 
 
-==Emacs + getdoc==
+######Emacs + getdoc
 Put something like that in your ~/.emacs
 (global-set-key [f12] 'lookup-word-at-point)
 
