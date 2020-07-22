@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 
   char *path = getenv("autodoc");
   if (path == NULL) {
-    path = "/home/alex/t/amigaos-cross-toolchain/.build-m68k/sources/NDK_3.9/Documentation/Autodocs";
+    path = "/home/alex/t/amiga-gcc/projects/NDK_3.9/Documentation/Autodocs";
   }
 
   //printf("Path: %s\n", path);
